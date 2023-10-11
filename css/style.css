@@ -1,0 +1,102 @@
+:root{
+    --color1: #7779bd
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ------------------ */
+
+.header {
+    margin-top: 1rem;
+}
+.header__container {
+
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header__logo {
+}
+.header__logo{
+}
+.logo {
+}
+.logo h1{
+    font-size: 2rem;
+    transition-duration: 0.4s;
+}
+
+.logo h1:hover{
+    color: var(--color1);
+}
+
+.time {
+}
+.time h2{
+    font-size: 2rem;
+}
+.sublogo {
+}
+.sublogo h2{
+    font-size: 2rem;
+}
+/* ------------------------------ */
+.main {
+    margin-top: 2rem;
+}
+.main__container {
+}
+
+.hidden{
+    display: none;
+}
+
+/* Menu ======================= */
+
+.main__menu {
+    width: 35%;
+    margin: 0 auto;
+
+}
+
+.main__menu h2{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.menu {
+}
+.list {
+}
+.list .link{
+    display: block;
+    border: 1px solid var(--color1);
+    font-size: 2rem;
+    padding: 1.5rem;
+    transition-duration: 0.4s;
+}
+
+.list .link:hover{
+    background-color: var(--color1);
+}
+
+
+/* ---------------------------------- */
+.hooter {
+}
+.hooter__container {
+}
