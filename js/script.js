@@ -66,6 +66,8 @@ function remove(params) {
     lesson_26_2.classList.remove('nowTd')
 }
 
+
+
 const lesson_21_1 = document.querySelector('#lesson_21-1')
 const change_21_0 = document.querySelector('#change_21-0')
 const lesson_21_2 = document.querySelector('#lesson_21-2')
@@ -101,6 +103,21 @@ const timeBlock2 = document.querySelector('.time')
 timeBlock2.addEventListener('click', () => testTine());
 
 Data = new Date();
+
+let days = [
+    'Воскресенье',
+    'Понедельник',
+    'Вторник',
+    'Среда',
+    'Четверг',
+    'Пятница',
+    'Суббота'
+  ];
+
+  let day = Data.getDay();
+
+  dayTitle = document.querySelector('#title_2')
+  dayTitle.innerHTML = days[day]
 
 let Hour = Data.getHours();
 let Minutes = Data.getMinutes();
