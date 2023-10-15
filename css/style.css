@@ -185,7 +185,7 @@ td{
 
     td{
         border: 1px solid #fff;
-        padding: 1rem;
+        /* padding: 2rem; */
         font-size: 1.25rem;
         transition-duration: 0.4s;
     }
