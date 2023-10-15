@@ -19,6 +19,7 @@ function visible(test) {
 }
 
 back.addEventListener('click', () => visible(menu));
+back.addEventListener('click', () => hidden(schedule));
 
 chartAccounts.addEventListener('click', () => hidden(menu));
 couplesSchedule.addEventListener('click', () => hidden(menu));
