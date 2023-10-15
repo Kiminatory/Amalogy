@@ -105,8 +105,8 @@ Data = new Date();
 let Hour = Data.getHours();
 let Minutes = Data.getMinutes();
 
-Hour = 13;
-Minutes = 25;
+// Hour = 13;
+// Minutes = 25;
 
 
 console.log(Hour);
