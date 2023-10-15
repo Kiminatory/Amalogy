@@ -427,16 +427,11 @@ function raspisanie() {
         timeBlock.innerHTML = `${endTime} мин`
 
         lesson_26_2.classList.add('nowTd')
-    } else if (19 <= Hour){
-        remove()
-        console.log(`${Hour}:${Minutes}`);
-        timeBlock.innerHTML = `Домой`
     } else {
         remove()
-        timeBlock.innerHTML = ``
+        timeBlock.innerHTML = `БУ115Д`
     }
 }
-
 setInterval(() => {
     raspisanie()
 }, 1000);
