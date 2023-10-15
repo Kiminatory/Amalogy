@@ -30,6 +30,9 @@ transactions.addEventListener('click', () => hidden(menu));
 airplanes.addEventListener('click', () => hidden(menu));
 
 // Расписание
+let buutonSchedule = document.querySelector('#call_schedule')
+let schedule = document.querySelector('.main__couples-schedule')
+buutonSchedule.addEventListener('click', () => visible(schedule));
 
 function remove(params) {
     lesson_21_1.classList.remove('nowTd')
