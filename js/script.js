@@ -119,8 +119,7 @@ let days = [
   dayTitle = document.querySelector('#title_2')
   dayTitle.innerHTML = days[day]
 
-let Hour = Data.getHours();
-let Minutes = Data.getMinutes();
+
 
 // Hour = 13;
 // Minutes = 25;
@@ -143,8 +142,8 @@ testTine()
 
 function raspisanie() {
     
-    Hour = Data.getHours();
-    Minutes = Data.getMinutes();
+    let Hour = Data.getHours();
+    let Minutes = Data.getMinutes();
     
     if (8 === Hour && 30 <= Minutes || 9 === Hour && 15 > Minutes ) {
         remove()
