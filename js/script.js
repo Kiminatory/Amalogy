@@ -142,6 +142,10 @@ testTine()
 
 
 function raspisanie() {
+    
+    Hour = Data.getHours();
+    Minutes = Data.getMinutes();
+    
     if (8 === Hour && 30 <= Minutes || 9 === Hour && 15 > Minutes ) {
         remove()
         
