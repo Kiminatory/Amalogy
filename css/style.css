@@ -145,9 +145,10 @@ td{
 }
 
 /* ---------------------------------- */
-.hooter {
+.footer {
+    height: 3vh;
 }
-.hooter__container {
+.footer__container {
 }
 
 @media (max-width: 575.98px) { 
@@ -186,11 +187,23 @@ td{
     td{
         border: 1px solid #fff;
         /* padding: 2rem; */
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         transition-duration: 0.4s;
     }
     table{
         width: 100%;
+    }
+
+    .main__container{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main__menu{
+        /* margin: 9px; */
+        padding: 0 10px;
+        
     }
  }
 
