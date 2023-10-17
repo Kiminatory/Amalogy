@@ -125,25 +125,29 @@ let days = [
 // Minutes = 25;
 
 
-console.log(Hour);
-function testTine(params) {
-    Minutes = Minutes + 1
-    if (Minutes === 60) {
-        Minutes = 0
-        Hour = Hour + 1
-    }
-    timeBlock.innerHTML = `${Hour}:${Minutes}`
-    raspisanie()
-}
+// console.log(Hour);
+// function testTine(params) {
+//     Minutes = Minutes + 1
+//     if (Minutes === 60) {
+//         Minutes = 0
+//         Hour = Hour + 1
+//     }
+//     timeBlock.innerHTML = `${Hour}:${Minutes}`
+//     raspisanie()
+// }
 
-testTine()
+// testTine()
 
 
 
 function raspisanie() {
     
+    Data = new Date();
+
     let Hour = Data.getHours();
     let Minutes = Data.getMinutes();
+
+    console.log(`${Hour}:${Minutes}`);
     
     if (8 === Hour && 30 <= Minutes || 9 === Hour && 15 > Minutes ) {
         remove()
@@ -432,7 +436,6 @@ function raspisanie() {
         lesson_26_2.classList.add('nowTd')
     } else {
         remove()
-        timeBlock.innerHTML = `БУ115Д`
     }
 }
 setInterval(() => {
@@ -440,4 +443,3 @@ setInterval(() => {
 }, 1000);
 
 raspisanie()
-
